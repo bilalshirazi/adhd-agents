@@ -1,41 +1,37 @@
 # ADHD Agents
 
-A collection of specialized AI system prompts designed to act as "external scaffolding" for the adult ADHD brain.
+A modular suite of AI agent specifications designed to act as **"External Scaffolding"** for the adult ADHD brain.
 
-These agents are based strictly on the clinical principles outlined in **"Taking Charge of Adult ADHD (2nd Edition)"** by Dr. Russell Barkley. They are designed to be used individually depending on your current need.
+These agents are based strictly on the clinical frameworks of **Dr. Russell Barkley** in *Taking Charge of Adult ADHD (2nd Edition)*. They do not offer generic advice; they enforce specific executive protocols.
 
-## 📂 The Agents
+## The Agents
 
 ### 1. [The Success Coach](./success-agent.md)
-**FileName:** `success-agent.md`
-* **Purpose:** Task execution, daily planning, and overcoming procrastination.
-* **Core Principle:** "The Point of Performance."
-* **Key Features:**
-    * **The Molehill Rule:** Breaking tasks down into 2-minute physical actions.
-    * **Externalized Time:** Enforcing the use of visual timers.
-    * **Manualized Direction:** Acting as a "GPS" to re-route distraction without judgment.
+**Focus:** Task execution, time management, and motivation.
+**Core Protocol:** **The 8 Rules for Success.**
+- Enforces "Stop the Action" (Inhibition) before starting.
+- Mandates "Externalizing Time" (Timers/Clocks).
+- Uses the "Molehill Rule" to break tasks into 2-minute physical actions.
+- Demands "External Motivation" (artificial consequences).
 
 ### 2. [The ADHD Educator](./education-agent.md)
-**FileName:** `education-agent.md`
-* **Purpose:** Understanding symptoms, reducing shame, and explaining *why* you are struggling.
-* **Core Principle:** ADHD as a disorder of *Self-Regulation*, not knowledge.
-* **Key Features:**
-    * Explains struggles using the **7 Executive Functions** (e.g., Working Memory, Inhibition).
-    * Reframes "laziness" as biological delays in executive development.
+**Focus:** Understanding symptoms, reducing shame, and biological explanation.
+**Core Protocol:** **The 7 Executive Functions.**
+- Reframes "laziness" as a deficit in Self-Motivation.
+- Explains the "30% Rule" (Developmental Delay).
+- Distinguishes "Performance Knowledge" vs. "Performance Execution."
 
 ### 3. [The Relationship Manager](./relationship-agent.md)
-**FileName:** `relationship-agent.md`
-* **Purpose:** Navigating social conflict, impulsive speech, and emotional regulation.
-* **Core Principle:** "Stop, Look, Listen."
-* **Key Features:**
-    * **Inhibition Protocols:** Cues to pause before reacting.
-    * **Perspective Taking:** Prompts to visualize the other person's physical perspective.
-    * **The Parking Lot:** Techniques to "write down" interruptions instead of saying them.
+**Focus:** Social conflict, impulsive speech, and partner reliability.
+**Core Protocol:** **Stop, Look, Listen.**
+- Enforces the "Parking Lot" method for interruptions.
+- Mandates "Verbal Repeating" to ensure active listening.
+- Requires "Externalizing Promises" (if it's not written down, it's a lie).
 
-## 🚀 Usage
-1.  Select the agent file (`.md`) that matches your current need.
-2.  Copy the raw content.
-3.  Paste it into your LLM's "System Instructions" or use it with an agent loader like [Agents.md](https://agents.md/).
+## Usage
+1. **Choose your Agent:** Select the `.md` file that matches your current struggle.
+2. **Inject the Prompt:** Copy the raw text into your LLM's system instructions or "Custom Instructions" field.
+3. **Follow the Protocol:** The agents are designed to ask you questions and force you to pause. Answer them honestly for the scaffolding to work.
 
-## 📚 Sourcing
-All strategies are derived from Dr. Russell Barkley's research on Executive Function and Self-Regulation.
+## Sourcing
+All strategies are derived directly from Dr. Russell Barkley's research on Executive Function, Time Blindness, and Self-Regulation.
